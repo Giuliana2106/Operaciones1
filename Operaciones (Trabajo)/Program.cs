@@ -41,6 +41,34 @@ namespace Operaciones__Trabajo_
                 linea = Console.ReadLine();
                 n2 = int.Parse(linea);
 
+                if (op == 1)
+                {
+                    total = n1 + n2;
+                    Console.WriteLine("El resultado es: ");
+                }
+                else if (op == 2)
+                {
+                    total = n1 - n2;
+                    Console.WriteLine("El resultado es: ");
+                }
+                else if (op == 3)
+                {
+                    total = n1 * n2;
+                    Console.WriteLine("El resultado es: ");
+                }
+                else if (op == 4)
+                {
+                    total = n1 / n2;
+                    Console.WriteLine("El resultado es: ");
+                }
+                else if (op == 5)
+                {
+                    Console.WriteLine("desea salir [s/n] ");
+                    linea = Console.ReadLine();
+                    menu = char.Parse(linea);
+                }
+
+
             }
         }
     }
